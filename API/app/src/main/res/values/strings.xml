@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">User</string>
+    <string name="user_id_hint">Enter user ID</string>
+    <string name="user_id_label">ID</string>
+    <string name="user_name_hint">Enter a Username</string>
+    <string name="user_name_label">Username</string>
+    <string name="new_user">New User</string>
+
+    <string name="alat_id_hint">Enter Alat ID</string>
+    <string name="alat_id_label">ID ALat</string>
+    <string name="alat_name_hint">Enter Merk</string>
+    <string name="alat_name_label">Merk</string>
+    <string name="alat_ruangan_hint">Enter Ruangan</string>
+    <string name="alat_ruangan_label">Ruangan</string>
+
+
+
+</resources>

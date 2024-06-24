@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_id_label"/>
+    <EditText
+        android:id="@+id/alatid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/alat_id_hint"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alat_name_label"/>
+    <EditText
+        android:id="@+id/merk"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/alat_name_hint"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alat_ruangan_label"/>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/alat_ruangan_hint"/>
+
+
+</LinearLayout>
